@@ -19,9 +19,6 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/google_fonts.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-
-    <!-- No need for robots to index this site; also providing the actual redirect. -->
-    <meta http-equiv="refresh" content="5; url=https://emmasax4.com">
     <meta name="robots" content="noindex">
   </head>
 
@@ -46,6 +43,11 @@
     <br>
     <a href="https://emmasax4.com">Click here if you are not redirected.</a>
   </div>
+
+  <script type="text/javascript">
+    pathname = window.location.pathname
+    window.location.href = "https://emmasax4.com" + pathname;
+  </script>
 
   <!-- Load Jquery/Bootstrap just in case -->
   <script src="/assets/js/jquery.min.js"></script>

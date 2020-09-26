@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <meta charset="utf-8">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load the favicons, images, and CSS to make it look like this page is a part of my primary site. -->
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-TileImage" content="/assets/images/mstile-150x150.png">
+    <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/android-chrome-96x96.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/images/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="/assets/images/favicon-196x196.png">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+    <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#1144ef">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/google_fonts.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="robots" content="noindex">
+  </head>
+
   <title>Redirecting&hellip;</title>
-  <link rel="canonical" href="https://emmasax4.com/404">
-  <script>
-    location="https://emmasax4.com/404"
+
+  <!-- Give me the navigation bar so it looks like this page is a part of my primary site. -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark py-0 py-md-0">
+      <!-- Just show the primary home button -->
+      <a class="navbar-brand mb-0" href="https://emmasax4.com" target="_self">
+        <img src="/assets/images/e-logo-white-40.png" width="30" height="30" style="margin-top: 1px; margin-bottom: 1px;"
+        class="d-inline-block align-top" alt="E logo"
+      >&nbsp;&nbsp;Emma Sax
+      </a>
+    </nav>
+  </header>
+
+  <!-- Give me a nice message that I'll be redirected -->
+  <div class="text-center">
+    <br><br>
+    <p style="font-size: 32px;">This site has moved. We'll redirect you in 5 seconds&hellip;</p>
+    <br>
+    <a href="https://emmasax4.com">Click here if you are not redirected.</a>
+  </div>
+
+  <script type="text/javascript">
+    pathname = window.location.pathname
+    window.location.href = "https://emmasax4.com" + pathname;
   </script>
-  <meta http-equiv="refresh" content="0; url=https://emmasax4.com/404">
-  <meta name="robots" content="noindex">
-  <h1>Redirecting&hellip;</h1>
-  <a href="https://emmasax4.com/404">Click here if you are not redirected.</a>
+
+  <!-- Load Jquery/Bootstrap just in case -->
+  <script src="/assets/js/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
 </html>
