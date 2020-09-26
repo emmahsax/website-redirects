@@ -23,16 +23,14 @@
 
     <!-- Add the Javascript needed to redirect -->
     <script type="text/javascript">
-      // Perform an automatic timed redirect
       var pathname = window.location.pathname;
+
+      // Perform an automatic timed redirect
       setTimeout(function(){ window.location.href = "https://emmasax4.com" + pathname;}, 5000);
 
       // Add button click functionality as well
-      window.onload = function() {
-        var redirect_button = document.getElementById("redirect");
-        redirect_button.onclick = function() {
-          window.location.href = "https://emmasax4.com" + pathname;
-        };
+      function redirect_now() {
+        window.location.href = "https://emmasax4.com" + pathname;
       };
     </script>
   </head>
@@ -56,7 +54,9 @@
     <br><br>
     <p style="font-size: 32px;">This site has moved. We'll redirect you in 5 seconds&hellip;</p>
     <br>
-    <a id="redirect">Click here if you are not redirected.</a>
+    <button class="btn btn-lg btn-outline-secondary" onclick="redirect_now(); return false;">
+      Click here if you are not redirected.
+    </button>
   </div>
 
   <!-- Load Jquery/Bootstrap -->
