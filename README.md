@@ -21,7 +21,7 @@ What I've done is taken every single `index.html` file that could be served at `
   <meta http-equiv="refresh" content="0; url=https://emmasax4.com/path/and/file/name/">
   <meta name="robots" content="noindex">
   <h1>Redirecting&hellip;</h1>
-  <a href="https://emmasax4.com">Click here if you are not redirected.</a>
+  <a href="https://emmasax4.com/path/and/file/name/">Click here if you are not redirected.</a>
 </html>
 ```
 
