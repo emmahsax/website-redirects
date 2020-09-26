@@ -5,7 +5,7 @@ This repository is designed to be temporary to assist in creating solid 301 redi
 * `http://emmasax4.info`
 * `https://emmasax4.info`
 * `http://www.emmasax4.info`
-* `https://www.emmasax4.info`
+* `https://www.emmasax4.info` – unfortunately, this one actually doesn't work because there is no SSL certificate for `www.emmasax4.info`, 😭
 
 What I've done is taken every single `index.html` file that could be served at `emmasax4.info` (viewable by looking at the files [here](https://github.com/emmasax4/emmasax4.com/tree/dd3f3500597331bf4795746d4d1ecdb60b0bb21c) and recreated the directory structure and `index.html` files in this repository. The content of each `index.html` file looks like this:
 
