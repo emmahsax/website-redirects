@@ -44,9 +44,10 @@
     <a href="https://emmasax4.com">Click here if you are not redirected.</a>
   </div>
 
+  <!-- Perform the redirect after five seconds -->
   <script type="text/javascript">
-    pathname = window.location.pathname
-    window.location.href = "https://emmasax4.com" + pathname;
+    pathname = window.location.pathname;
+    setTimeout(function(){ window.location.href = "https://emmasax4.com" + pathname;}, 5000);
   </script>
 
   <!-- Load Jquery/Bootstrap just in case -->
