@@ -20,6 +20,21 @@
     <link rel="stylesheet" href="/assets/css/google_fonts.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <meta name="robots" content="noindex">
+
+    <!-- Add the Javascript needed to redirect -->
+    <script type="text/javascript">
+      // Perform an automatic timed redirect
+      var pathname = window.location.pathname;
+      setTimeout(function(){ window.location.href = "https://emmasax4.com" + pathname;}, 5000);
+
+      // Add button click functionality as well
+      window.onload = function() {
+        var redirect_button = document.getElementById("redirect");
+        redirect_button.onclick = function() {
+          window.location.href = "https://emmasax4.com" + pathname;
+        };
+      };
+    </script>
   </head>
 
   <title>Redirecting&hellip;</title>
@@ -36,21 +51,15 @@
     </nav>
   </header>
 
-  <!-- Give me a nice message that I'll be redirected -->
+  <!-- Give me a nice message that I'll be redirected and provide button just in case -->
   <div class="text-center">
     <br><br>
     <p style="font-size: 32px;">This site has moved. We'll redirect you in 5 seconds&hellip;</p>
     <br>
-    <a href="https://emmasax4.com">Click here if you are not redirected.</a>
+    <a id="redirect" href="https://emmasax4.com">Click here if you are not redirected.</a>
   </div>
 
-  <!-- Perform the redirect after five seconds -->
-  <script type="text/javascript">
-    pathname = window.location.pathname;
-    setTimeout(function(){ window.location.href = "https://emmasax4.com" + pathname;}, 5000);
-  </script>
-
-  <!-- Load Jquery/Bootstrap just in case -->
+  <!-- Load Jquery/Bootstrap -->
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.min.js"></script>
 </html>
