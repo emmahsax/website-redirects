@@ -5,7 +5,7 @@ This repository is designed to be temporary to assist in creating solid 301 redi
 * `http://emmasax4.info`
 * `https://emmasax4.info`
 * `http://www.emmasax4.info`
-* `https://www.emmasax4.info` (ideally, however this one actually doesn't work reliably because there is no SSL certificate for `www.emmasax4.info`, 😭 )
+* `https://www.emmasax4.info`
 
 This repository has one important file called `index.html`. This is the landing page when somebody navigates to `https://emmasax4.info`. Then, it loads the CSS, Bootstrap, fonts, and images from the primary site (I just copy-pasted them into the `assets/` directory... nothing too fancy) so that it has the proper "feel" of the original site and therefore looks authentic. The page has a nice message which says the site has moved (so users know what is happening), and has a button to redirect immediately. Else, there's a redirect that will apply automatically after five seconds.
 
