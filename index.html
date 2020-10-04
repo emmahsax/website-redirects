@@ -23,14 +23,14 @@
 
     <!-- Add the Javascript needed to redirect -->
     <script type="text/javascript">
-      var pathname = window.location.pathname;
+      var full_redirect = "https://emmasax4.com" + window.location.pathname;
 
       // Perform an automatic timed redirect
-      setTimeout(function(){ window.location.href = "https://emmasax4.com" + pathname;}, 5000);
+      setTimeout(function(){ window.location.href = full_redirect;}, 5000);
 
       // Add button click functionality as well
       function redirect_now() {
-        window.location.href = "https://emmasax4.com" + pathname;
+        window.location.href = full_redirect;
       };
     </script>
   </head>
