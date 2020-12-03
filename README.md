@@ -17,3 +17,5 @@ I didn't bother filling the "project" with anything more than necessary, which i
 My plan from here on out is to keep this repository and the old domain (`emmasax4.info`) alive for about six months while my SEO ratings come back. And then, I can sunset this repository and just put in plain `http` redirects in my domain name registrar going forward.
 
 Huge thanks to Oleksii Tsvietnov for [the original idea](https://opensource.com/article/19/7/permanently-redirect-github-pages).
+
+When interacting with this repository, please follow [Contributor Covenant's Code of Conduct](https://contributor-covenant.org).
