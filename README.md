@@ -1,4 +1,4 @@
-# emmasax4-redirects
+# website-redirects
 
 This repository is designed to be temporary to assist in creating solid 301 redirects from `https://emmasax4.info` and `https://www.emmasax4.info` to `https://emmasax4.com`. Technically, `https://www.emmasax4.info` will actually just redirect to `https://emmasax4.info`, which will then further redirect to the `.com` domain.
 
