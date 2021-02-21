@@ -19,3 +19,11 @@ My plan from here on out is to keep this repository and the old domain (`emmasax
 Huge thanks to Oleksii Tsvietnov for [the original idea](https://opensource.com/article/19/7/permanently-redirect-github-pages).
 
 When interacting with this repository, please follow [Contributor Covenant's Code of Conduct](https://contributor-covenant.org).
+
+## Archival Notice
+
+This repository has been archived and designated as read-only. From GitHub's documentation:
+
+> This will make the emmahsax/website-redirects repository, issues, pull requests, labels, milestones, projects, wiki, releases, commits, tags, branches, reactions and comments read-only and disable any future comments. The repository can still be forked.
+
+To unarchive this project at any time, please reach out to me at https://emmasax.com/contact-me/.
