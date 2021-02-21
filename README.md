@@ -1,10 +1,10 @@
 # website-redirects
 
-This repository is designed to be temporary to assist in creating solid 301 redirects from `https://emmasax4.info` and `https://www.emmasax4.info` to `https://emmasax4.com`. Technically, `https://www.emmasax4.info` will actually just redirect to `https://emmasax4.info`, which will then further redirect to the `.com` domain.
+This repository is designed to be temporary to assist in creating solid 301 redirects from `https://emmasax4.info` and `https://www.emmasax4.info` to `https://emmasax.com`. Technically, `https://www.emmasax4.info` will actually just redirect to `https://emmasax4.info`, which will then further redirect to the `.com` domain.
 
 This repository has one important file called `index.html`. This is the landing page when somebody navigates to `https://emmasax4.info`. Then, it loads the CSS, Bootstrap, fonts, and images from the primary site (I just copy-pasted them into the `assets/` directory... nothing too fancy) so that it has the proper "feel" of the original site and therefore looks authentic. The page has a nice message which says the site has moved (so users know what is happening), and has a button to redirect immediately. Else, there's a redirect that will apply automatically after five seconds.
 
-The redirects are unique because they persist the path of the URL. So, if a user navigates to `https://emmasax4.info/path/to/page/`, then they'll be redirected to `https://emmasax4.com/path/to/page/`. To make this work, I used Javascript functions to do the redirects, versus plain HTML, _and_ I created a symlinked file as well: `404.html`.
+The redirects are unique because they persist the path of the URL. So, if a user navigates to `https://emmasax4.info/path/to/page/`, then they'll be redirected to `https://emmasax.com/path/to/page/`. To make this work, I used Javascript functions to do the redirects, versus plain HTML, _and_ I created a symlinked file as well: `404.html`.
 
 When a user navigates to any page at `https://emmasax4.info/` that is _not_ the base URL (so there's any path after the first `/`), then they'll be brought to the 404 page (since my static site doesn't have any other pages). And I want the 404 page to have the _exact same_ look and functionality as the primary page, hence why I created a symlink.
 
