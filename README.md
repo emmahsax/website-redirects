@@ -20,6 +20,14 @@ Huge thanks to Oleksii Tsvietnov for [the original idea](https://opensource.com/
 
 ---
 
+### Contributing
+
+To submit a feature request, bug ticket, etc, please submit an official [GitHub Issue](https://github.com/emmahsax/website-redirects/issues/new).
+
+### Security Policy
+
+To report any security vulnerabilities, please view this repository's [Security Policy](https://github.com/emmahsax/website-redirects/security/policy).
+
 ### Licensing
 
 For information on licensing, please see [LICENSE.md](https://github.com/emmahsax/website-redirects/blob/main/LICENSE.md).
