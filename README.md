@@ -18,9 +18,17 @@ My plan from here on out is to keep this repository and the old domain (`emmasax
 
 Huge thanks to Oleksii Tsvietnov for [the original idea](https://opensource.com/article/19/7/permanently-redirect-github-pages).
 
+---
+
+### Licensing
+
+For information on licensing, please see [LICENSE.md](https://github.com/emmahsax/website-redirects/blob/main/LICENSE.md).
+
+### Code of Conduct
+
 When interacting with this repository, please follow [Contributor Covenant's Code of Conduct](https://contributor-covenant.org).
 
-## Archival Notice
+### Archival Notice
 
 This repository has been archived and designated as read-only. From GitHub's documentation:
 
