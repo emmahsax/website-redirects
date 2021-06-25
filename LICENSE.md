@@ -3,7 +3,7 @@
 Copyright (c) 2020 Emma Sax.
 All rights reserved.
 
-"Content" is defined as any files or content written in the following directories
+"Content" is defined as any files or file contents written in the following directories
 of the default branch:
 
 * `assets/images/*`
